@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: "Source Sans Pro", sans-serif;
+    color: #f9f7f7;
+    background-color: black;
+    overflow: hidden;
+}
+    
+.main-container{
+    font-style: normal;
+    flex-grow: 1;
+    margin-top: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    width: 1000px;
+    height: 10px;
+}
+
+.inner-container{
+    color: #fdfcfc;
+    width: 800px;
+    height: 100px;
+    text-align: center;
+    align-self: center;
+}
+
+.response-container{
+    overflow-y: auto;
+    width: 1000px;
+    max-height: 300px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.chat-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 400px;
+    margin-top: 392px;
+}
+
+.text-container{
+    margin-top: 10px;
+    text-align: left;
+}
+
+.textbox{
+    width: 510px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: text;
+    font-size: medium;
+}
+
+.submit {
+    padding: 10px;
+    color: white;
+    background-color: #1ac67c;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 47px;
+    width: 47px;
+}
+.submit::before {
+    content: "➤";
+    font-size: larger;
+}
+
+.submit-button-container{
+    margin-top: 5px;
+    align-self: flex-start;
+}
+
+.mic-toggle {
+    padding: 10px;
+    height: 47px;
+    width: 47px;
+    border-radius: 10px;
+    background-color: #1ac67c;
+}
+
+.mic-toggle::before {
+    content: '🎤';
+    font-size: larger;
+}
+
+.download {
+    padding: 10px;
+    color: white;
+    background-color: #1ac67c;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 47px;
+    width: 47px;
+}
+
+.download::before {
+    content: '📥';
+    font-size: larger;
+}
